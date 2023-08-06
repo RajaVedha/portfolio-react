@@ -20,7 +20,7 @@ function Navbar() {
         <button onClick={() => {setExpandNavbar((prev) => !prev)}}> <ReorderIcon /> </button>
         </div>
        <div className='links'>
-        <Link to='/portfolio-react/'>Home</Link>
+        <Link to='/portfolio-react'>Home</Link>
         <Link to='/projects'>Projects</Link>
         <Link to='/certificates'>Certificates</Link>
         </div> 
