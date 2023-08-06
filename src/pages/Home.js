@@ -3,11 +3,14 @@ import { LinkedIn, GitHub, Mail} from '@mui/icons-material'
 import '../styles/Home.css'
 import { Link } from 'react-router-dom';
 import Skills from '../components/Skills';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 function Home() {
   return (
       <div className='home'>
+        <Navbar />
         <div className='about'>
         <h2>Hi, I'm Raja</h2> 
         <div className='prompt'> 
@@ -19,6 +22,7 @@ function Home() {
       </div>
       <Skills />
       {/* <Profiles /> */}
+      <Footer />
       </div>
       
     
