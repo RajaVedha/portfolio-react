@@ -12,14 +12,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="portfolio-react/" element={<Home />} />
           <Route path="/projects"  element={<Projects />}/>
           <Route path="/projects/:id" element={<ProjectDisplay />}/>
           <Route path="/certificates" element={<Certificates />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

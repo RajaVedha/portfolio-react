@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 function Home() {
   return (
       <div className='home'>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className='about'>
         <h2>Hi, I'm Raja</h2> 
         <div className='prompt'> 
@@ -22,7 +22,7 @@ function Home() {
       </div>
       <Skills />
       {/* <Profiles /> */}
-      {/* <Footer /> */}
+      <Footer />
       </div>
       
     

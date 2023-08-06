@@ -2,10 +2,13 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import "react-vertical-timeline-component/style.min.css"
 import { School } from '@mui/icons-material'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 function Certificates() {
   return (
     <div className='certificates'>
+      <Navbar />
       <VerticalTimeline lineColor='#3e497a'>
 
           <VerticalTimelineElement 
@@ -63,6 +66,7 @@ function Certificates() {
           </VerticalTimelineElement>
           
       </VerticalTimeline>
+      <Footer />
     </div>
   )
 }
